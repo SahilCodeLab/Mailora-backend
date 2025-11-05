@@ -1,0 +1,23 @@
+{
+  "name": "mailora-backend",
+  "version": "1.0.0",
+  "description": "Backend for Mailora - Multi-language Email Generator",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^6.7.0",
+    "dotenv": "^16.0.3",
+    "helmet": "^6.0.0",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
