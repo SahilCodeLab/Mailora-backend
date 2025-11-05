@@ -1,7 +1,7 @@
 {
   "name": "mailora-backend",
   "version": "1.0.0",
-  "description": "Backend for Mailora - Multi-language Email Generator",
+  "description": "Backend for Mailora Email Generator",
   "main": "server.js",
   "type": "module",
   "scripts": {
